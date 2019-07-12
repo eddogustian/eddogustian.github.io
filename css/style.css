@@ -1900,6 +1900,7 @@ html {
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .flexible-container iframe,   
