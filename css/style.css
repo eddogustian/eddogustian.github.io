@@ -1961,6 +1961,9 @@ address {
     font-weight: bold;
     font-family: "Sacramento", Arial, serif;
 }
+.fh6co-heading h2 {
+	font-size: 30px !important;
+}
 
 /*maps end css*/
 
