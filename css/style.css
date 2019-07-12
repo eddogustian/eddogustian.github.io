@@ -1946,7 +1946,21 @@ address {
     text-align: center;
   }
 }
-
+.fh6co-heading h3{
+	font-size: 22px;
+    line-height: 0.5;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    font-family: "Work Sans", Arial, sans-serif !important;
+} 
+#fh5co-counter .display-t .display-tc .lcw-heading h2{
+	font-size: 40px;
+    line-height: 1.5;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: "Sacramento", Arial, serif;
+}
 
 /*maps end css*/
 
