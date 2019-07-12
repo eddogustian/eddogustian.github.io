@@ -448,7 +448,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter {
   /*height: 600px;*/
-  height: 650px;
+  /*height: 650px;*/
+  height: auto;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter {
@@ -1886,5 +1887,51 @@ html {
   line-height: 1 !important;
   font-family: "Work Sans", Arial, sans-serif !important;
 }
+/*maps css*/
+/* Flexible iFrame */
+
+.flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.flexible-container iframe,   
+.flexible-container object,  
+.flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#fh5co-counter address {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 1em 1em;
+  background-color: #F14E95;
+  color: #ffffff;
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+address {
+     margin-bottom: 0;
+    font-style: normal;
+    line-height: 1.42857;
+}
+@media only screen and (min-width: 768px) {
+  #fh5co-counter address {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    text-align: center;
+  }
+}
+
+/*maps end css*/
 
 /*# sourceMappingURL=style.css.map */
